@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="314" height="14" viewBox="0 0 314 14">
+  <g id="Group_3" data-name="Group 3" transform="translate(-17 -47)">
+    <g id="Group_1" data-name="Group 1" transform="translate(22)">
+      <text id="Products" transform="translate(-5 58)" fill="#fef9f9" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Products</tspan></text>
+      <text id="LightBox" transform="translate(101 58)" fill="#fef9f9" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">LightBox</tspan></text>
+      <text id="Contact_Us" data-name="Contact Us" transform="translate(178 58)" fill="#fef9f9" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Contact Us</tspan></text>
+      <text id="Dealers" transform="translate(266 58)" fill="#fef9f9" font-size="11" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Dealers</tspan></text>
+    </g>
+    <g id="Icon_feather-eye" data-name="Icon feather-eye" transform="translate(69.449 43.728)">
+      <path id="Path_14" data-name="Path 14" d="M1.5,10.349S3.674,6,7.479,6s5.979,4.349,5.979,4.349S11.284,14.7,7.479,14.7,1.5,10.349,1.5,10.349Z" fill="none" stroke="#fcf8f8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_15" data-name="Path 15" d="M16.761,15.131A1.631,1.631,0,1,1,15.131,13.5,1.631,1.631,0,0,1,16.761,15.131Z" transform="translate(-7.651 -4.782)" fill="none" stroke="#fcf8f8" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
