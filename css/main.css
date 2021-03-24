@@ -216,6 +216,10 @@ nav > .container > ul a {
   width: 70px;
 }
 
+.product-feature .content-box .image-box .bigger {
+  width: 120px;
+}
+
 .product-feature .product-info {
   color: black;
   margin-top: 1rem;
