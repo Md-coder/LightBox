@@ -55,6 +55,7 @@ a{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 20;
 }
 
 nav{
@@ -294,6 +295,7 @@ footer{
 
 // contact page
 .text-content{
+    margin-top: 8rem;
     h3{
         margin-bottom: 1rem;
     }
@@ -349,6 +351,7 @@ footer{
 
 // sslider
 .product-display{
+    margin-top: 8rem;
 
     .image-box2{
         width: 100%;

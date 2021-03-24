@@ -56,6 +56,7 @@ a {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 20;
 }
 
 nav {
@@ -329,6 +330,10 @@ footer p {
   opacity: .5;
 }
 
+.text-content {
+  margin-top: 8rem;
+}
+
 .text-content h3 {
   margin-bottom: 1rem;
 }
@@ -376,6 +381,10 @@ footer p {
   color: #072A86;
   padding: 5px;
   font-weight: 500;
+}
+
+.product-display {
+  margin-top: 8rem;
 }
 
 .product-display .image-box2 {
@@ -510,6 +519,7 @@ footer p {
     font-weight: 500;
     padding-top: 10rem;
     height: 90vh;
+    padding-bottom: 20rem;
   }
   .hero .hero-head .hero-content .content {
     width: 60%;
