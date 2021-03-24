@@ -1,0 +1,46 @@
+@media only screen and (min-width:700px){
+    .product-feature{
+        .content-box{
+            grid-template-columns: repeat(3,1fr);
+            padding-right: 0;
+        }
+    }
+
+    nav{
+        font-size: 1rem;
+    }
+
+    // slider
+    .product-display{
+        .image-box2{
+            height: 400px;
+        }
+        img{
+            width: 250px;
+        }
+
+    .description{
+        font-size: 16px;
+
+        .description-info{
+            .text-desc{
+                font-size: 10px;
+            }
+        }
+    }
+    }
+
+    .features{
+        font-size: 10px;
+    }
+
+    .specification{
+        font-size: 10px;
+    }
+
+    // dealers page
+    .dealer{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}

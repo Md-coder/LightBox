@@ -136,6 +136,10 @@ nav > .container > ul a {
   width: 30px;
 }
 
+.hero-image {
+  display: none;
+}
+
 .circle {
   animation: circle 1s infinite alternate-reverse;
 }
@@ -368,7 +372,7 @@ footer p {
 
 .product-display .image-box2 {
   width: 100%;
-  height: 200px;
+  height: 250px;
   background: none;
   display: -ms-grid;
   display: grid;
@@ -376,7 +380,7 @@ footer p {
 }
 
 .product-display img {
-  width: 100px;
+  width: 150px;
 }
 
 .product-display .description {
@@ -443,5 +447,40 @@ footer p {
 
 .dealer .dealer-box .light {
   font-weight: 500;
+}
+
+@media only screen and (min-width: 700px) {
+  .product-feature .content-box {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    padding-right: 0;
+  }
+  nav {
+    font-size: 1rem;
+  }
+  .product-display .image-box2 {
+    height: 400px;
+  }
+  .product-display img {
+    width: 250px;
+  }
+  .product-display .description {
+    font-size: 16px;
+  }
+  .product-display .description .description-info .text-desc {
+    font-size: 10px;
+  }
+  .features {
+    font-size: 10px;
+  }
+  .specification {
+    font-size: 10px;
+  }
+  .dealer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
 }
 /*# sourceMappingURL=main.css.map */
