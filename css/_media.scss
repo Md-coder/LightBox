@@ -44,3 +44,50 @@
         grid-template-columns: repeat(3,1fr);
     }
 }
+
+@media only screen and (min-width:1050px){
+    .hero{
+      
+        
+        background: unset;
+        .hero-head{
+            display: grid;
+            grid-template-columns: 66% auto;
+           
+            
+
+            .hero-content{
+                background: var(--blue);
+                text-align: left;
+               padding-left: 5rem;
+               font-size: 2.5rem;
+               font-weight: 500;
+               padding-top: 10rem;
+               height: 90vh;
+
+               .content{
+                   width: 60%;
+                 margin-top: 8rem;
+                 
+               }
+          
+            }
+            .hero-image{
+                display: unset;
+                margin-left: -50%;
+                margin-top: 30%;
+                img{
+                    width: 550px;
+                    
+                }
+            }
+        }
+    }
+
+    .product-feature{
+        .content-box{
+            grid-template-columns: repeat(4,1fr);
+            padding-right: 0;
+        }
+    }
+}

@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+.logo {
+  background: white;
+}
+
 .logo .icon {
   width: 1.9rem;
   margin-right: .2rem;
@@ -48,11 +52,18 @@ a {
   width: 5.5rem;
 }
 
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 nav {
   background: var(--ash);
   padding: 1rem;
   color: white;
   position: relative;
+  width: 100%;
   line-height: 1rem;
   height: 4rem;
   padding-top: 0;
@@ -118,9 +129,6 @@ nav > .container > ul a {
 .hero {
   background: var(--blue);
   color: white;
-  display: -ms-grid;
-  display: grid;
-  place-content: center;
   font-weight: 400;
   font-size: 2rem;
   text-align: center;
@@ -128,7 +136,7 @@ nav > .container > ul a {
 }
 
 .hero .content {
-  margin-top: 4rem;
+  margin-top: 8rem;
   margin-bottom: 2rem;
 }
 
@@ -481,6 +489,44 @@ footer p {
     display: grid;
     -ms-grid-columns: (1fr)[3];
         grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .hero {
+    background: unset;
+  }
+  .hero .hero-head {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 66% auto;
+        grid-template-columns: 66% auto;
+  }
+  .hero .hero-head .hero-content {
+    background: var(--blue);
+    text-align: left;
+    padding-left: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-top: 10rem;
+    height: 90vh;
+  }
+  .hero .hero-head .hero-content .content {
+    width: 60%;
+    margin-top: 8rem;
+  }
+  .hero .hero-head .hero-image {
+    display: unset;
+    margin-left: -50%;
+    margin-top: 30%;
+  }
+  .hero .hero-head .hero-image img {
+    width: 550px;
+  }
+  .product-feature .content-box {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    padding-right: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
