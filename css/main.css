@@ -98,6 +98,7 @@ nav > .container > ul a {
   top: 4rem;
   background: var(--ash);
   opacity: 0;
+  visibility: hidden;
   -webkit-transition: all ease-in-out .5s;
   transition: all ease-in-out .5s;
   -webkit-transform: translateY(3rem);
@@ -123,6 +124,7 @@ nav > .container > ul a {
 
 .product-link:hover ~ .product-list {
   opacity: 1;
+  visibility: visible;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
